@@ -1,0 +1,45 @@
+<html>
+
+<head>
+
+    <title>AI Video Surveillance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body background="8k-abstract-colorful-r9.jpg">
+
+    <center>
+        <div class="heading_div">
+            <h1>AI OBJECT DETECTOR</h1>
+            <h4>The Name You Give In The Input Should Match The Name In CCSSD Model Then Only It Will Be Detected...
+            </h4>
+        </div>
+
+        <h3>OBJECT NAME:</h3>
+        <input type="text" id="input_id" placeholder="">
+        <button class="btn btn-danger" id="start_button" onclick="start()">Start</button>
+        <br>
+        <h3 class="btn btn-danger" id="status"></h3>
+        <h3 class="btn btn-warning" id="object_found"></h3>
+    </center>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

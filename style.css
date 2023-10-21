@@ -1,0 +1,28 @@
+body
+{
+    background-position: center;
+    background-size: cover;
+}
+
+.heading_div
+{  
+    margin-top: -20px;
+    background-color: rgb(237, 142, 34);
+    color: black;
+    font-size: 1px;
+}
+
+h3 
+{
+    color: black;
+    background-color: rgb(237, 35, 35);
+    width: 15%;
+    font-weight: bold;
+    
+}
+
+canvas{
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px white;
+    background-color: red;
+}
